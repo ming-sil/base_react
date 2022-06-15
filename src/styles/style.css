@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-weight: 900;
+}
+
+.menu {
+  color: red;
+}
+
+.bev {
+  color: blue;
+}
