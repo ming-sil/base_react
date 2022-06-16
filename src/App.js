@@ -12,10 +12,12 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { kakoDb, menuDb, subDb } from "./db";
 import { ExKakao } from "./components/4_map/ExKakao";
 import { Content } from "./components/4_map/Content";
+import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
   return (
     <>
+      <GlobalStyled />
       {/* 1일차 */}
       {/* <TagRule /> */}
 
