@@ -8,7 +8,9 @@ import {
 import { Ex } from "./components/3_props/Ex";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
-import { menuDb, subDb } from "./db";
+import { FoodMenu } from "./components/4_map/FoodMenu";
+import { kakoDb, menuDb, subDb } from "./db";
+import { ExKakao } from "./components/4_map/ExKakao";
 
 const App = () => {
   return (
@@ -26,7 +28,11 @@ const App = () => {
       {/* 3일차 */}
       {/* <Menus /> */}
       {/* <Subject sub={subDb} /> */}
-      <Ex menuName={menuDb} />
+      {/* <Ex menuName={menuDb} /> */}
+
+      {/* 4일차 */}
+      {/* <FoodMenu menus={menuDb} /> */}
+      <ExKakao kakaoData={kakoDb} />
     </>
   );
 };
