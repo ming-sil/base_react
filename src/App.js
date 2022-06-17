@@ -13,6 +13,8 @@ import { kakoDb, menuDb, subDb } from "./db";
 import { ExKakao } from "./components/4_map/ExKakao";
 import { Content } from "./components/4_map/Content";
 import { GlobalStyled } from "./styles/GlobalStyled";
+import { Icons } from "./components/MusicApp/Icons";
+import { MusicApp } from "./components/MusicApp/MusicApp";
 
 const App = () => {
   return (
@@ -36,7 +38,11 @@ const App = () => {
       {/* 4일차 */}
       {/* <FoodMenu menus={menuDb} /> */}
       {/* <ExKakao kakaoData={kakoDb} /> */}
-      <Content />
+      {/* <Content /> */}
+
+      {/* 5일차 */}
+      {/* <Icons /> */}
+      <MusicApp />
     </>
   );
 };
