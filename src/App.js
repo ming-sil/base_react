@@ -13,8 +13,9 @@ import { kakoDb, menuDb, subDb } from "./db";
 import { ExKakao } from "./components/4_map/ExKakao";
 import { Content } from "./components/4_map/Content";
 import { GlobalStyled } from "./styles/GlobalStyled";
-import { Icons } from "./components/MusicApp/Icons";
-import { MusicApp } from "./components/MusicApp/MusicApp";
+import { Icons } from "./components/5_MusicApp/Icons";
+import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { AnsMusicApp } from "./components/5_MusicApp/AnsMusicApp";
 
 const App = () => {
   return (
@@ -42,7 +43,8 @@ const App = () => {
 
       {/* 5일차 */}
       {/* <Icons /> */}
-      <MusicApp />
+      {/* <MusicApp /> */}
+      <AnsMusicApp />
     </>
   );
 };
