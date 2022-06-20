@@ -16,35 +16,41 @@ import { GlobalStyled } from "./styles/GlobalStyled";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { AnsMusicApp } from "./components/5_MusicApp/AnsMusicApp";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { FnEvent } from "./components/6_Event/FnEvent";
 
 const App = () => {
   return (
     <>
       <GlobalStyled />
-      {/* 1일차 */}
+      {/* Day 1 */}
       {/* <TagRule /> */}
 
-      {/* 2일차 */}
+      {/* Day 2 */}
       {/* <FnComponent /> */}
       {/* <FnComponent_1 />
       <FnComponent_2 /> */}
 
       {/* <ClassComponent /> */}
 
-      {/* 3일차 */}
+      {/* Day 3 */}
       {/* <Menus /> */}
       {/* <Subject sub={subDb} /> */}
       {/* <Ex menuName={menuDb} /> */}
 
-      {/* 4일차 */}
+      {/* Day 4 */}
       {/* <FoodMenu menus={menuDb} /> */}
       {/* <ExKakao kakaoData={kakoDb} /> */}
       {/* <Content /> */}
 
-      {/* 5일차 */}
+      {/* Day 5 */}
       {/* <Icons /> */}
       {/* <MusicApp /> */}
-      <AnsMusicApp />
+      {/* <AnsMusicApp /> */}
+
+      {/* Day6 */}
+      <ClassEvent />
+      <FnEvent />
     </>
   );
 };
