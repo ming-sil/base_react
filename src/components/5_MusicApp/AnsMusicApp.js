@@ -32,6 +32,13 @@ const CoverImg = styled.div`
   border-radius: 25px;
   box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
   margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
 `;
 
 export const AnsMusicApp = () => {
@@ -41,9 +48,11 @@ export const AnsMusicApp = () => {
         <Header />
         <CoverImg
           style={{
-            background: `url(https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/e80/image/OEoWWoq-OnoJDV4XHj61fncPK0E.jpg) no-repeat center / cover`,
+            background: `url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif) no-repeat center / cover`,
           }}
-        />
+        >
+          Like That
+        </CoverImg>
         <TitleWrap />
         <PlayWrap />
         <BtnWrap />
