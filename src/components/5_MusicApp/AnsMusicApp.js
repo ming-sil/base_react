@@ -28,7 +28,7 @@ const Section = styled.div`
 
 const CoverImg = styled.div`
   width: 90%;
-  height: 280px;
+  height: 250px;
   border-radius: 25px;
   box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
   margin: 30px 0;
