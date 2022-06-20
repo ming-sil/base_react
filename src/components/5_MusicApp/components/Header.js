@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 const SHeader = styled.header`
+  width: 100%;
   display: flex;
   justify-content: space-between;
 `;

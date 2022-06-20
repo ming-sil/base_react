@@ -21,16 +21,29 @@ const Section = styled.div`
   background-color: #1d1d1d;
   border-radius: 25px;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-const CoverImg = styled.div``;
+const CoverImg = styled.div`
+  width: 90%;
+  height: 280px;
+  border-radius: 25px;
+  box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
+  margin: 30px 0;
+`;
 
 export const AnsMusicApp = () => {
   return (
     <Wrap>
       <Section>
         <Header />
-        <CoverImg />
+        <CoverImg
+          style={{
+            background: `url(https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/e80/image/OEoWWoq-OnoJDV4XHj61fncPK0E.jpg) no-repeat center / cover`,
+          }}
+        />
         <TitleWrap />
         <PlayWrap />
         <BtnWrap />
