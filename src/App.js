@@ -19,6 +19,7 @@ import { AnsMusicApp } from "./components/5_MusicApp/AnsMusicApp";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { Animation } from "./components/6_Event/Animation";
+import { BaseRouter } from "./components/7_router/BaseRouter";
 
 const App = () => {
   return (
@@ -54,7 +55,8 @@ const App = () => {
       <FnEvent /> */}
 
       {/* Day7 */}
-      <Animation />
+      {/* <Animation /> */}
+      <BaseRouter />
     </>
   );
 };
