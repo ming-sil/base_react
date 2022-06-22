@@ -20,6 +20,7 @@ import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { Animation } from "./components/6_Event/Animation";
 import { BaseRouter } from "./components/7_router/BaseRouter";
+import { LayoutRouter } from "./components/8_BaseLayout/LayoutRouter";
 
 const App = () => {
   return (
@@ -50,13 +51,16 @@ const App = () => {
       {/* <MusicApp /> */}
       {/* <AnsMusicApp /> */}
 
-      {/* Day6 */}
+      {/* Day 6 */}
       {/* <ClassEvent />
       <FnEvent /> */}
 
-      {/* Day7 */}
+      {/* Day 7 */}
       {/* <Animation /> */}
-      <BaseRouter />
+      {/* <BaseRouter /> */}
+
+      {/* Day 8 */}
+      <LayoutRouter />
     </>
   );
 };

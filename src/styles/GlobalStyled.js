@@ -13,4 +13,12 @@ ${reset}
 *{
     box-sizing: border-box;
 }
+
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+  color: #1d1d1d;
+}
 `;
